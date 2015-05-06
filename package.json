@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "PCBuilder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcarmody/PCBuilder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcarmody/PCBuilder/issues"
+  },
+  "homepage": "https://github.com/mcarmody/PCBuilder",
+  "dependencies": {
+    "boom": "^2.7.1",
+    "catbox-redis": "^1.0.4",
+    "convict": "^0.7.0",
+    "hapi": "^8.4.0",
+    "when": "^3.7.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-uglify": "^1.2.0"
+  }
+}
